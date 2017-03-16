@@ -1,0 +1,581 @@
+/* Reset CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/** Reset das tags do HTML 5 ***/
+header, nav, section, article, aside, footer {display: block;}
+
+/** Font **/
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+
+/** Header **/
+
+header {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background: #fff;
+    display: inline-table;
+    box-shadow: 0 3px 10px -2px #999;
+    -webkit-box-shadow: 0 3px 10px -2px #999;
+    -moz-box-shadow: 0 3px 10px -2px #999;
+    -o-box-shadow: 0 3px 10px -2px #999;
+    -ms-box-shadow: 0 3px 10px -2px #999;
+}
+
+header img {
+    width: 140px;
+    height: auto;
+    float: left;
+    margin-top: 15px;
+}
+
+header p {
+    font: 1.75em 'roboto';
+    line-height: 22px;
+    font-weight: 300;
+    color: #333;
+    float: right;
+    margin-top: 37px;
+    text-align: right;
+}
+
+.fa-phone {
+    margin-right: 7px;
+}
+
+/** Banner **/
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background: url('images/bg-banner.jpg') top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner h1 {
+    font: 5em 'roboto';
+    line-height: 1.2em;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 100px 0 15px 0;
+    text-shadow: 1px 1px #666;
+}
+
+.banner p {
+    font: 1.5em 'roboto';
+    color: #fff;
+    line-height: 1.5em;
+    font-weight: 300;
+    text-shadow: 1px 1px #666;
+}
+
+/** Lead **/
+
+.lead {
+    width: 100%;
+    background: #424242;
+    margin-top: 30px;
+    padding: 15px;
+    float: left;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 27px -2px rgba(0,0,0,0.83);
+    margin-bottom: 4em;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
+
+    .lead h3 {
+        font: 1.8em 'roboto';
+        color: #fff;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    .lead p {
+        font: 1.25em 'roboto';
+        color: #fff;
+        line-height: 1.25em;
+        font-weight: 300;
+        margin: 10px 0 25px 0;
+    }
+
+.lead form input, textarea {
+    width: 100%;
+    padding: 15px;
+    font: 1.1em 'roboto';
+    color: #333;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.lead form input.form-error, .lead form textarea.form-error, .newsletter form input.form-error{
+    border:2px solid red;
+    background-color: #ffe1e1;
+}
+
+.lead form button {
+    width: 100%;
+    padding: 20px;
+    font: 1.1em 'roboto';
+    font-weight: 500;
+    color: #000;
+    background: #c1cc25;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    text-transform: uppercase;
+    -webkit-transition: 0.1s ease-in-out all;
+    -o-transition: 0.1s ease-in-out all;
+    transition: 0.1s ease-in-out all;
+}
+
+.lead form button:hover {
+    background: #d4df34;
+    -webkit-transition: 0.1s ease-in-out all;
+    -o-transition: 0.1s ease-in-out all;
+    transition: 0.1s ease-in-out all;
+}
+
+/** Content **/
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+}
+
+.content h2 {
+    font-size: 1.75em;
+    line-height: 1.5em;
+    color: #333;
+    font-weight: 300;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+.content figure {
+    margin: 40px 0 40px 0;
+}
+
+.content figcaption {
+    font: 0.9em 'roboto';
+    color: #000;
+    line-height: 1.6em;
+    font-weight: 300;
+    padding: 15px;
+    background: #eee;
+}
+
+.content p {
+    font: 1.2em 'roboto';
+    color: #333;
+    line-height: 1.75em;
+    font-weight: 300;
+    margin: 20px 0 20px 0;
+}
+
+/** Convênios **/
+
+.convenios {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 80px 0;
+    border-top: 1px solid #ccc;
+    background: #f4f4f4;
+}
+
+.convenios h2 {
+    font: 3em 'roboto';
+    color: #333;
+    font-weight: 300;
+    margin: 0 0 1.75em 0;
+}
+
+.convenios img {
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+/** Cirurgias **/
+
+.cirurgias {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0 5em 0;
+}
+
+.cirurgias h2 {
+    font: 3em 'roboto';
+    color: #333;
+    font-weight: 300;
+    margin: 1em 0 1em 0;
+}
+
+.cirurgias .margin-icons {
+    margin: 20px 0 20px 0;
+}
+
+.cirurgias a {
+    color: #40bfb6;
+}
+
+.cirurgias a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.cirurgias a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+.cirurgias .retina-icon {
+    color: #40bfb6;
+    font-size: 3em;
+}
+
+.cirurgias h3 {
+    font: 1.75em 'roboto';
+    color: #40bfb6;
+    font-weight: 300;
+    margin-top: 0.3em;
+}
+
+.cirurgias p {
+    font: 1.1em 'roboto';
+    color: #333;
+    line-height: 1.6em;
+    font-weight: 300;
+    margin-top: 0.75em;
+}
+
+/** Feature **/
+
+.feature {
+    width: 100%;
+    height: 711px;
+    background: url('images/bg-feature.jpg') top center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.feature .box {
+    float: right;
+    padding: 30px;
+    background: #40bfb6;
+    margin-top: 10em;
+}
+
+.feature .box h3 {
+    font: 2.75em 'roboto';
+    line-height: 1.25em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+.feature .box p {
+    font: 1.1em 'roboto';
+    line-height: 1.75em;
+    font-weight: 300;
+    color: #fff;
+}
+
+/** Newsletter **/
+
+.newsletter {
+    width: 100%;
+    background: #40bfb6;
+    padding: 25px 0 15px 0;
+}
+
+.newsletter h4 {
+    font: 1.7em 'roboto';
+    font-weight: 300;
+    color: #fff;
+    margin-top: 0.2em;
+}
+
+.newsletter .text {
+    float: left;
+}
+
+.newsletter .form-news {
+    float: right;
+}
+
+.newsletter form input {
+    padding: 15px;
+    font: 1.1em 'roboto';
+    color: #333;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.newsletter form button {
+    padding: 15px;
+    font: 1em 'roboto';
+    font-weight: 300;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    text-transform: uppercase;
+    -webkit-transition: 0.1s ease-in-out all;
+    -o-transition: 0.1s ease-in-out all;
+    transition: 0.1s ease-in-out all;
+}
+
+.newsletter form button:hover {
+    background: #000;
+    -webkit-transition: 0.1s ease-in-out all;
+    -o-transition: 0.1s ease-in-out all;
+    transition: 0.1s ease-in-out all;
+}
+
+/** Footer **/
+
+footer {
+    width: 100%;
+    background: #26282d;
+    padding: 3em 0 3em 0;
+    text-align: center;
+    clear: both;
+}
+
+footer .fa {
+    font-size: 1.5em;
+    color: #ccc;
+    margin-bottom: 1em;
+}
+
+footer .fa:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    font: 1em 'roboto';
+    line-height: 2.25em;
+    color: #ccc;
+    font-weight: 300;
+}
+
+footer a {
+    color: #ccc;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p span {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 400;
+}
+
+.bar {
+    width: 100%;
+    background: #eee;
+    padding: 1.5em 0 1.5em 0;
+}
+
+.bar img {
+    float: left;
+}
+
+.bar p {
+    font: 1em 'roboto';
+    line-height: 1.7em;
+    color: #333;
+    font-weight: 300;
+    float: right;
+    text-align: right;
+    margin-top: 12px;
+}
+
+/** Media Queries **/
+
+/* Tablet */
+@media (max-width: 991px) {
+    .lead {
+        margin-bottom: 3em;
+    }
+
+    .content h2 {
+        font-size: 1.5em;
+    }
+
+    .convenios {
+        width: 100%;
+        display: table;
+        padding: 2em 0 2em 0;
+    }
+
+    .convenios h2 {
+        margin: 0.75em 0 1.5em 0;
+    }
+
+    .convenios p {
+        margin: 1em 0 2.5em 0;
+    }
+
+    .newsletter {
+        text-align: center;
+    }
+
+    .newsletter h4 {
+        margin-bottom: 1em;
+    }
+
+    .newsletter .text {
+        width: 100%;
+        float: none;
+    }
+
+    .newsletter .form-news {
+        width: 100%;
+        float: none;
+    }
+
+    .newsletter form input {
+        width: 100%;
+    }
+
+    .newsletter form button {
+        width: 100%;
+    }
+}
+
+/* Smartphone */
+@media (max-width: 490px) {
+    header {
+        text-align: center;
+    }
+
+    header img {
+        float: none;
+    }
+
+    header p {
+        display: none;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    .banner h2 {
+        margin-top: 1.5em;
+    }
+
+    .banner h1 {
+        font-size: 2.4em;
+    }
+
+    .lead {
+        display: block;
+    }
+
+    .convenios {
+        clear: both;
+    }
+
+    .convenios h2 {
+        margin: 0.2em 0 1.5em 0;
+    }
+
+    .convenios p {
+        margin: 1em 0 2.5em 0;
+    }
+
+    .bar {
+        text-align: center;
+    }
+
+    .bar img {
+        float: none;
+    }
+
+    .bar p {
+        float: none;
+    }
+
+    .feature {
+        height: auto;
+        background: none;
+    }
+
+    .feature .box {
+        float: none;
+        padding: 20px;
+        margin-top: 1em;
+        margin-bottom: 3em;
+    }
+}
